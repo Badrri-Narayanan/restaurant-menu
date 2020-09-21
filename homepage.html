@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Hotel Badrri Bhavan</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link href="style.css" rel="stylesheet"/> 
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>Welcome To Hotel Badrri Bhavan</h1>
+    <h3>Menu</h3>
+    <br/>
+    <table class="center">
+        <tr>
+            <th>Dish</th>
+            <th>Price</th>
+        </tr>
+        <tr ng-repeat="d in dishes">
+            <td>{{d.name}}</td>
+            <td>{{d.price}}</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

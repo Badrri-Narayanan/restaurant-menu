@@ -1,0 +1,38 @@
+  body {
+    background:
+    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+    color: whitesmoke;
+  }
+
+  h1, h3 {
+    text-align: center;
+  }
+
+  table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  td {
+    padding-left: 16%;
+    color: maroon;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  th {
+    background-color: goldenrod;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
