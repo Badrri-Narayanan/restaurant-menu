@@ -5,7 +5,7 @@ app.controller("myCtrl", ($scope, $http) =>{
             name:'Loading',
             price: 'Loading',
         }];
-    $http.get("http://localhost:3500/")
+    $http.get("https://restaurant-node-server.herokuapp.com/")
      .then(response => {
          $scope.dishes = response.data;
      })
